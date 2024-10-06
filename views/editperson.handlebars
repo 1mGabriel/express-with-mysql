@@ -1,0 +1,11 @@
+<form action="/person/updateperson" method="POST">
+<h1>EDITE {{person.person_name}}</h1>
+<input type="hidden" name="id" value="{{person.idperson}}">
+<label for="person_name">Nome</label>
+<input type="text" name="person_name" placeholder="Digite o nome" value="{{person.person_name}}">
+<label for="person_age">Idade</label>
+<input type="text" name="person_age" placeholder="Digite sua idade" value="{{person.person_age}}">
+<label for="person_email">Email</label>
+<input type="text" name="person_email" placeholder="Digite seu email" value="{{person.person_email}}">
+<input type="submit" value="Editar">
+</form>

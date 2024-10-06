@@ -1,0 +1,52 @@
+form{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+    margin: 0 auto;
+}
+form label{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input{
+padding: 10px;
+}
+nav{
+    padding: 20px;
+}
+nav ul{
+    gap: 20px;
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.person-list h2{
+    text-transform: uppercase;
+}
+.person-list ul{
+    text-decoration: none;
+    color: #333;
+}
+#remove{
+    background-color: rgb(226, 25, 25);
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    opacity: .7;
+    transition: .4s;
+    color: #fff;
+    border-radius: 11px;
+    margin: 20px;
+}
+#remove:hover{
+    opacity: 1;
+}
